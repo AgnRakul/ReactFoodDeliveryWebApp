@@ -40,7 +40,16 @@ const HomeContainer = () => {
           Order Now
         </button>
       </div>
-      <div className="py-2 flex-1 bg-orange-100"></div>
+      <div className="py-2 flex-1 flex items-center">
+        <div className="w-full flex item-center justify-center relative">
+          <img
+            src={HeroBg}
+            className="ml-auto w-full lg:w-auto lg:h-650 h-420"
+            alt="hero-bg"
+          />
+          <div className="w-full h-full absolute flex item-center justify-center"></div>
+        </div>
+      </div>
     </section>
   );
 };
